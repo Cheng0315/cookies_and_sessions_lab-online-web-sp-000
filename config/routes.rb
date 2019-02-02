@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  resources :application, only:[:cart, :create]
+  resources :application, only:[:cart, :add_to_cart]
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
