@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   get '/' => 'application#cart'
-  post '/add_to_cart' => 'application#add_to_to_cart'
+  post '/add_to_cart' => 'application#add_to_cart'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
