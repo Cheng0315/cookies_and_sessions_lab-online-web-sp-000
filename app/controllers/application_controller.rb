@@ -7,7 +7,4 @@ class ApplicationController < ActionController::Base
     session[:cart] ||= []
   end
 
-  def add_to_cart
-    cart << params[:product]
-  end
 end
