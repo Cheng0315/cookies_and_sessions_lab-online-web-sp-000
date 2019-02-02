@@ -1,6 +1,6 @@
 class ProductsController < ApplicationController
 
-  def add_to_cart
+  def add
     cart << params[:product]
   end
 end
